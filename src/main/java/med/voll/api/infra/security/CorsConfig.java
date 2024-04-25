@@ -14,7 +14,7 @@ public class CorsConfig  {
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration corsConfiguration = new CorsConfiguration();
-        corsConfiguration.addAllowedOrigin("https://medical-app-gpi.web.app"); // Permitir acceso desde esta URL
+        corsConfiguration.addAllowedOriginPattern("https://medical-app-gpi.web.app"); // Permitir acceso desde esta URL
         corsConfiguration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         corsConfiguration.setAllowCredentials(true);
         corsConfiguration.setAllowedHeaders(List.of("Origin","X-Requested-With","Authorization", "Content-Type", "Accept")); // Agrega las cabeceras que necesitas permitir
