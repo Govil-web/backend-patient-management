@@ -7,7 +7,6 @@ med\voll\api\domain\consulta\validaciones\ValidadorHorarioAntecedencia.class
 med\voll\api\infra\security\SecurityFilter.class
 med\voll\api\domain\medico\Especialidad.class
 med\voll\api\infra\security\AutenticacionService.class
-med\voll\api\config\CorsConfig.class
 med\voll\api\controller\ConsultaController.class
 med\voll\api\infra\security\DatosJWTToken.class
 med\voll\api\controller\PacientesController.class
@@ -43,6 +42,7 @@ med\voll\api\repository\UsuarioRepository.class
 med\voll\api\domain\consulta\validaciones\MedicoActivo.class
 med\voll\api\domain\consulta\validaciones\HorarioDeFuncionamientoClinica.class
 med\voll\api\domain\usuarios\DatosAutenticacionUsuario.class
+med\voll\api\infra\security\CorsConfig.class
 med\voll\api\domain\paciente\DatosRespuestaPaciente.class
 med\voll\api\domain\medico\DatosRespuestaMedico.class
 med\voll\api\infra\security\TokenService.class

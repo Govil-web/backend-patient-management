@@ -16,7 +16,6 @@ C:\Users\gvill\OneDrive\Escritorio\api\src\main\java\med\voll\api\domain\consult
 C:\Users\gvill\OneDrive\Escritorio\api\src\main\java\med\voll\api\domain\medico\Especialidad.java
 C:\Users\gvill\OneDrive\Escritorio\api\src\main\java\med\voll\api\infra\security\SecurityConfiguration.java
 C:\Users\gvill\OneDrive\Escritorio\api\src\main\java\med\voll\api\repository\PacienteRepository.java
-C:\Users\gvill\OneDrive\Escritorio\api\src\main\java\med\voll\api\config\CorsConfig.java
 C:\Users\gvill\OneDrive\Escritorio\api\src\main\java\med\voll\api\controller\AutenticacionController.java
 C:\Users\gvill\OneDrive\Escritorio\api\src\main\java\med\voll\api\infra\security\AutenticacionService.java
 C:\Users\gvill\OneDrive\Escritorio\api\src\main\java\med\voll\api\domain\consulta\validaciones\HorarioDeAnticipacion.java
@@ -40,6 +39,7 @@ C:\Users\gvill\OneDrive\Escritorio\api\src\main\java\med\voll\api\domain\direcci
 C:\Users\gvill\OneDrive\Escritorio\api\src\main\java\med\voll\api\domain\medico\DatosRespuestaMedico.java
 C:\Users\gvill\OneDrive\Escritorio\api\src\main\java\med\voll\api\domain\consulta\validaciones\PacienteActivo.java
 C:\Users\gvill\OneDrive\Escritorio\api\src\main\java\med\voll\api\domain\usuarios\Usuario.java
+C:\Users\gvill\OneDrive\Escritorio\api\src\main\java\med\voll\api\infra\security\CorsConfig.java
 C:\Users\gvill\OneDrive\Escritorio\api\src\main\java\med\voll\api\domain\paciente\DatosListaPaciente.java
 C:\Users\gvill\OneDrive\Escritorio\api\src\main\java\med\voll\api\domain\paciente\DatosRespuestaPaciente.java
 C:\Users\gvill\OneDrive\Escritorio\api\src\main\java\med\voll\api\controller\MedicoController.java
