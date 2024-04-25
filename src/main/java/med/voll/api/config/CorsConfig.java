@@ -14,13 +14,15 @@ public class CorsConfig  {
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration corsConfiguration = new CorsConfiguration();
-        corsConfiguration.setAllowedOriginPatterns(List.of(""));
+        corsConfiguration.addAllowedOrigin("https://medical-app-gpi.web.app"); // Permitir acceso desde esta URL
         corsConfiguration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         corsConfiguration.setAllowCredentials(true);
-        corsConfiguration.setAllowedHeaders(List.of(""));
+        corsConfiguration.setAllowedHeaders(List.of("Authorization", "Content-Type")); // Agrega las cabeceras que necesitas permitir
         corsConfiguration.setMaxAge(3600L);
+
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         source.registerCorsConfiguration("/**", corsConfiguration);
+        System.out.println("Se habilita configuracion de CORS " + source.toString());
         return source;
     }
 }

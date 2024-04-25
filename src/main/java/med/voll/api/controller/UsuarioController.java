@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("v1/api/usuario")
-@CrossOrigin(origins = "https://medical-app-gpi.web.app")
 public class UsuarioController {
 
     @Autowired
