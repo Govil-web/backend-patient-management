@@ -21,7 +21,7 @@ import java.net.URI;
 @RestController
 @RequestMapping("v1/api/pacientes")
 @SecurityRequirement(name = "bearer-key")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://medical-app-gpi.web.app")
 public class PacientesController {
 
     @Autowired
